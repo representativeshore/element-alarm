@@ -1,0 +1,2 @@
+#!/bin/bash
+pkill -f element-alarm/watch.sh; pkill -f "caffeinate -i -w"; touch ~/mti/element-alarm/STOP; echo "сторож выключен"
